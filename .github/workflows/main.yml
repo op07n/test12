@@ -11,7 +11,11 @@ jobs:
         with:
           repository: jeromep01/OopWinformsDesigner.git
           path: main   
-        
+      
+      - run: cd D:\a\test12\test12\main\OopWinformsDesigner
+    
+      - run: ls -la
+       
 #      - name: Setup NuGet.exe
 #        uses: nuget/setup-nuget@v1
 #        with:
