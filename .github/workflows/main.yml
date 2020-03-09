@@ -13,11 +13,11 @@ jobs:
           path: main   
       
        
-#      - name: Setup NuGet.exe
-#        uses: nuget/setup-nuget@v1
-#        with:
-#          nuget-version: latest
-#      - run: nuget restore
+      - name: Setup NuGet.exe
+        uses: nuget/setup-nuget@v1
+        with:
+          nuget-version: latest
+      - run: nuget restore d:\a\test12\test12\main\OopWinformsDesigner\OopWinformsDesigner.sln
 
       - name: Build
         run: |
