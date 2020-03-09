@@ -16,9 +16,7 @@ jobs:
         uses: nuget/setup-nuget@v1
         with:
           nuget-version: latest
-
-      - name: NuGet Restore
-        run: nuget restore
+      - run: nuget restore
 
       - name: Build
         run: |
