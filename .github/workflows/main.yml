@@ -12,11 +12,11 @@ jobs:
           repository: jeromep01/OopWinformsDesigner.git
           path: main   
         
-      - name: Setup NuGet.exe
-        uses: nuget/setup-nuget@v1
-        with:
-          nuget-version: latest
-      - run: nuget restore
+#      - name: Setup NuGet.exe
+#        uses: nuget/setup-nuget@v1
+#        with:
+#          nuget-version: latest
+#      - run: nuget restore
 
       - name: Build
         run: |
