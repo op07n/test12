@@ -14,7 +14,7 @@ jobs:
       
       - run: cd D:\a\test12\test12\main\OopWinformsDesigner
     
-      - run: ls -la
+      - run: dir
        
 #      - name: Setup NuGet.exe
 #        uses: nuget/setup-nuget@v1
